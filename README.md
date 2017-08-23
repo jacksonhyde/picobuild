@@ -10,7 +10,7 @@ The simplicity of Pico-8's cartridge system is one of it's shining features, but
 
 1. Install [Node.js](https://nodejs.org/en/)
 2. Clone this repo to your Pico-8 `carts` directory (for more info see the Filesystem section of the Pico-8 manual.
-3. Open a Node command prompt and run `npm install`
+3. Open a shell and run `npm install`
 4. Run `npm start` to run a build and watch for changes to '.lua' files in `.src`
 5. Run `npm build:minify` to run a one off minified build.
 
@@ -20,13 +20,15 @@ The simplicity of Pico-8's cartridge system is one of it's shining features, but
 
 ## Usage
 
-- Pico-8 code is written using an external editor and saved with the '.lua' extension in the `src` directory.
-- Pico-8 graphics and audio are edited as normal from your `.p8` Pico-8 file
+- Pico-8 code should be written using an external editor and saved with the '.lua' extension in the `src` directory.
+- Pico-8 graphics and audio shoul dbe edited as normal from your `.p8` Pico-8 file
 - PicoBuild runs in Nodejs command prompt, listening for changes to your code
 - When changes are detected, it concatenates your code and inserts it into your `p8 cart`.
 - A minified version of your cart is also generated in the `build` folder.
 
 ## Publishing to GH Pages
+
+You'll need a Github account and a forked version of this repo to publish to Github pages.
 
 1. From Pico-8 export your cart into a web format by running `EXPORT YOUR_CARTNAME.P8`. Ensure that `YOUR_CARTNAME` matches `cart_name` in your gulpfile.
 2. Run `npm run publish` to push your files to Github pages.
