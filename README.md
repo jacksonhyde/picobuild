@@ -14,7 +14,7 @@ The simplicity of Pico-8's cartridge system is one of it's shining features, but
 4. Run `npm start`
 
 **NOTE:**
-By default, PicoBuild is configured to look for `example.p8` cartridge in the `build` folder. If you change the name of the `p8` cart you're working with, you'll need to update the CART_NAME variable on line 11 of `gulpfile.js`
+By default, PicoBuild is configured to look for `example.p8` cartridge in the `build` folder. If you change the name of the `p8` cart you're working with, you'll need to update the `CART_NAME` variable on line 11 of `gulpfile.js`
 
 ## Usage
 
