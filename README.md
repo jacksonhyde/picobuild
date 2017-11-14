@@ -19,7 +19,7 @@ By default, PicoBuild is configured to look for `example.p8` cartridge in the `b
 ## Usage
 
 #### `npm start` 
-Injects your code into the p8 cart and watches for changes to '.lua' files in `.src`.
+Injects your code into the p8 cart and watches for changes to `.lua` files in `.src`.
 
 #### `npm run publish` 
 Upload an exported cart to Github pages (see below)
